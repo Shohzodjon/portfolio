@@ -1,0 +1,78 @@
+.intro {
+  display: flex;
+  height: 70vh;
+  margin-top: 6rem;
+  border: 1px solid red;
+}
+.i-left {
+  display: flex;
+  flex: 1;
+  position: relative;
+  flex-direction: column;
+  gap: 2rem;
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+.i-name .i-span1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin: 0.5rem 0;
+  color: var(--black);
+}
+.i-name .i-span2 {
+  font-size: 3.5rem;
+  color: var(--orange);
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.i-name p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: var(--gray);
+}
+.i-button {
+  width: 9rem;
+  height: 3.8rem;
+}
+.i-left .i-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.i-icons > * {
+  transform: scale(0.5);
+}
+.i-icons > li {
+  cursor: pointer;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.6);
+  top: -3rem;
+  left: -10%;
+}
+.i-right > :nth-child(2) {
+  transform: scale(0.6);
+  top: -14%;
+  left: -10%;
+}
+.i-right > :nth-child(3) {
+  transform: scale(1.3);
+  top: 0;
+  left: 22%;
+}
+.i-right > :nth-child(4) {
+  transform: scale(0.7);
+  top: -10%;
+  left: -10%;
+}

@@ -1,0 +1,21 @@
+.t-wrapper {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 7rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.t-heading {
+  align-self: flex-start;
+  display: flex;
+  gap: 0.5rem;
+}
+.t-heading > * {
+  font-size: 3rem;
+  font-weight: bold;
+}

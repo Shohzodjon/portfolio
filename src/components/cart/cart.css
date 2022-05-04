@@ -1,0 +1,46 @@
+.cart {
+  width: 20rem;
+  height: 24.5rem;
+
+  position: absolute;
+  display: flex;
+  gap: 0.4rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.267);
+  border: 7px solid var(--orangeCard);
+  padding: 0.3rem;
+  border-radius: 1.7rem;
+  box-shadow: var(--boxShadow);
+}
+.cart h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+.cart p {
+  font-size: 1.399rem;
+  line-height: 1.4;
+  margin: 0.3rem 0;
+}
+.cart .cart-img {
+  width: 100%;
+  height: 10rem;
+}
+.cart-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.c-button {
+  margin: 0.5rem 0;
+  border: none;
+  background: #fff;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  border: 1px solid rgba(153, 153, 153, 0.171);
+  box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+  width: 12rem;
+  border-radius: 2rem;
+}

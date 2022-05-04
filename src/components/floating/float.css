@@ -1,0 +1,19 @@
+.float {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #fff;
+  border-radius: 1.7rem;
+  box-shadow: var(--box-shadow);
+  border: 1px solid red;
+  height: 8rem;
+  width: max-content;
+  padding: 0.5rem 1rem;
+}
+.float > img {
+  width: 5rem;
+  transform: scale(1.088);
+}
+.float > span {
+  font-size: 1.4rem;
+}
